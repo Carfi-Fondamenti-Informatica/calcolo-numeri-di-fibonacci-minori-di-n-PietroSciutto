@@ -9,7 +9,7 @@ int main() {
     cout << primo << endl;
     cout << secondo << endl;
 
-    for(i=1;i<n;i++) {
+    for(i=0;i<=n-1;i++) {
         terzo = primo + secondo;
         primo = secondo;
         secondo = terzo;
